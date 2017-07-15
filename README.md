@@ -1,0 +1,3 @@
+This package is the core component of the system of human-robot interaction using spatial language.
+The package includes two parts, which are the algorithm and the interface.
+The code of the algorithm, written in C++ include the grounding three of the four conversions of the spatial language interaction model. The three conversions are RDT model language grounding converting the spatial language clause to RDT model, spatial relationship variable construction which converts the environment model to the spatial relationship variable model, and, the motion planner that finds the move-to target by the environment model that can best match the direction of the RDT model. The part-of-speech work is on hte Python side.
