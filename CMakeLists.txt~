@@ -131,8 +131,8 @@ include_directories(include
 
 ## Declare a C++ library
 add_library(${PROJECT_NAME}
-  include/${PROJECT_NAME}/algorithm/partofspeech_tagging.cpp
-  include/${PROJECT_NAME}/algorithm/spatial_relationship_variable.cpp
+  src/${PROJECT_NAME}/algorithm/partofspeech_tagging.cpp
+  src/${PROJECT_NAME}/algorithm/spatial_relationship_variable.cpp
 )
 
 ## Add cmake target dependencies of the library
